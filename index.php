@@ -87,14 +87,14 @@
         ]
     ?>
     <header>
-        <div class="d-flex justify-content-between p-3">
+        <div class="d-flex justify-content-between p-3 aling-items-center">
             <div class="d-flex align-items-center">
                 <img class="ms_logo" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="">
                 <span class="ms-2 fs-3 text-muted">Privacy e termini</span>
             </div>
-            <div>
-            <i class="fs-4 fa-solid fa-grip"></i>
-            <span>R</span>
+            <div class="d-flex align-items-center">
+                <i class="fs-4 fa-solid fa-grip mx-3"></i>
+                <span class="user_icon">R</span>
             </div>
         </div>
         <div>
@@ -125,11 +125,11 @@
                 foreach($faqs as $faq){
             ?>
             <div class="my-5">
-                <h2 class="py-3">
+                <h3 class="py-3">
                     <?php
                         echo $faq['question'];
                     ?>
-                </h2>
+                </h3>
                 <p>
                     <?php
                         echo $faq['content'];

@@ -32,9 +32,20 @@ ol li{
 
 .active{
     color:blue;
-    box-shadow: 0 2px 0 0px blue;
+    box-shadow: 0 3px 0 0px blue;
 }
-
+.user_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
 .ms_logo{
     width: 100px;
 }
