@@ -147,7 +147,26 @@
            
         </div>   
     </main>
-    
+    <footer>
+      <div class="ms_container"> 
+            <div class="d-flex justify-content-between align-items-center">
+                    <ul class="footer_links">
+                        <li>
+                            <a href="">Google</a> 
+                        </li>
+                        <li>
+                            <a href="">Tutto su Google</a>
+                        </li>
+                        <li>
+                           <a href="">Privacy</a>      
+                        </li>
+                        <li>
+                            <a href="">Termini</a> 
+                        </li>
+                    </ul>
+            </div>
+      </div>
+    </footer>
    
 </body>
 </html>
